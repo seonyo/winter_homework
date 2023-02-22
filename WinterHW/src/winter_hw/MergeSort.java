@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class test1 {
+public class MergeSort {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		int arrA[] = new int [5];
@@ -12,12 +12,12 @@ public class test1 {
 		int temp[] = new int [10];
 		ArrayList <Integer> result = new ArrayList <Integer>();
 		int length=0;
-		System.out.print("Ã¹¹øÂ° ¹è¿­ÀÇ µ¥ÀÌÅ¸ : ");
+		System.out.print("ì²«ë²ˆì§¸ ë°°ì—´ì˜ ë°ì´íƒ€ : ");
 		for(int i=0; i<arrA.length; i++) {
 			arrA[i]=scan.nextInt();
 			temp[i]=arrA[i];
 		}
-		System.out.print("µÎ¹øÀç ¹è¿­ÀÇ µ¥ÀÌÅ¸ : ");
+		System.out.print("ë‘ë²ˆì¬ ë°°ì—´ì˜ ë°ì´íƒ€ : ");
 		for(int i=0; i<arrB.length; i++) {
 			arrB[i]=scan.nextInt();
 			temp[i+5]=arrB[i];
@@ -29,7 +29,7 @@ public class test1 {
 				length++;
 			}
 		}
-		System.out.print("º´ÇÕµÈ ¹è¿­ÀÇ µ¥ÀÌÅ¸ : ");
+		System.out.print("ë³‘í•©ëœ ë°°ì—´ì˜ ë°ì´íƒ€ : ");
 		for(int i=0; i<result.size(); i++) {
 			System.out.print(result.get(i)+" ");
 		}

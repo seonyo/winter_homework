@@ -1,5 +1,6 @@
 package winter_hw;
 
+
 import java.util.Scanner;
 
 class circle{
@@ -17,7 +18,7 @@ class circle{
 	}
 }
 
-public class test3 {
+public class SectorForm {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
@@ -29,5 +30,5 @@ public class test3 {
 		double circum = c1.circum(PI, radius);
 		System.out.println("반지름 "+ radius+"인 부채꼴의 면적 : "+ area +" , 둘레 : "+ circum);
 	}
-
 }
+

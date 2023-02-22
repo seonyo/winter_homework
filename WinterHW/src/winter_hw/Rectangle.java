@@ -1,8 +1,8 @@
 package winter_hw;
 
-class Rectangle{
+class rec{
 	int x1, y1, x2, y2;
-	Rectangle(int x1, int y1, int x2, int y2){
+	rec(int x1, int y1, int x2, int y2){
 		this.x1 = x1;
 		this.y1 = y1;
 		this.x2=x2;
@@ -22,9 +22,9 @@ class Rectangle{
 		return area;
 	}
 }
-public class test12 {
+public class Rectangle {
 	public static void main(String[] args) {
-		Rectangle t1 = new Rectangle (1,1,3,3);
+		rec t1 = new rec (1,1,3,3);
 		t1.showRectangle();
 		System.out.println("사각형의 둘레: " + t1.getRound());
 		System.out.println("사각형의 둘레: " + t1.getArea());

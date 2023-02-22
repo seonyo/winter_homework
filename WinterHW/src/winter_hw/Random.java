@@ -1,7 +1,7 @@
 package winter_hw;
 
 
-public class test11 {
+public class Random {
 
 	public static void main(String[] args) {
 		int [][] random = new int[4][4];

@@ -2,7 +2,7 @@ package winter_hw;
 
 import java.util.Scanner;
 
-public class test10 {
+public class ReverseStr {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		String input;
